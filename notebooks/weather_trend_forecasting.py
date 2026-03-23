@@ -16,7 +16,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # make sure you download the dataset from Kaggle
 # and place "Global Weather Repository.csv" inside the data folder
-file_path = "data/Global Weather Repository"
+file_path = "data/GlobalWeatherRepository.csv"
 
 df = pd.read_csv(file_path)
 
