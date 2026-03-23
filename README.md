@@ -12,6 +12,11 @@ PM Accelerator’s mission is to break down financial barriers and achieve educa
 - Global Weather Repository dataset from Kaggle
 - Daily weather information for cities around the world
 - Includes many features related to temperature, precipitation, wind, air quality, and other weather conditions
+- The original dataset is available on Kaggle.  
+Because the raw file is relatively large, I did not upload it directly to this repository.  
+To run the project, please download the dataset from Kaggle and place the CSV file inside the `data/` folder.
+
+Expected file name: `Global Weather Repository.csv`
 
 ## What I Worked On
 In this project, I:
