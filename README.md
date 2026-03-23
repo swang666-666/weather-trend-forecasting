@@ -1,9 +1,9 @@
 # Weather Trend Forecasting
 
 ## About This Project
-This project uses the Global Weather Repository dataset to look at weather patterns and forecast temperature trends over time. I used it as a way to practice a full data science workflow, including data cleaning, visualization, forecasting, and model evaluation.
+This project uses the Global Weather Repository dataset to explore weather patterns and forecast temperature trends over time. I used it as a way to practice a full data science workflow, including data cleaning, visualization, forecasting, and model evaluation.
 
-I wanted to keep the project practical and easy to follow. Instead of making it too complicated, I focused on understanding the dataset first, exploring the patterns in the data, building a reasonable model, and then explaining the results clearly.
+I wanted to keep the project simple and practical. Instead of making it too complicated, I focused on understanding the dataset first, exploring the data, building a reasonable model, and then explaining the results clearly.
 
 ## PM Accelerator Mission
 PM Accelerator’s mission is to break down financial barriers and achieve educational fairness. I included this project as a way to apply data science in a practical and accessible way.
@@ -18,7 +18,7 @@ Expected file name: `GlobalWeatherRepository.csv`
 ## What I Worked On
 In this project, I:
 - cleaned and inspected the dataset
-- checked missing values and possible outliers
+- checked missing values and removed duplicate rows
 - explored temperature and precipitation trends
 - used the `last_updated` feature for time-based analysis
 - built and compared forecasting models
@@ -61,6 +61,8 @@ The most important features in the Random Forest model were:
 - `humidity`
 
 This suggests that recent temperature history, along with a few weather-related conditions, played the biggest role in short-term forecasting.
+
+The generated figures are saved in `outputs/figures/`.
 
 ## Note
 This project is meant to be simple, readable, and easy to follow. I tried to keep both the code and the explanation clear.
