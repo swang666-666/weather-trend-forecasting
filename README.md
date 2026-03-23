@@ -42,6 +42,31 @@ In this project, I:
 
 3. Run the notebook in the `notebooks/` folder
 
+## Results
+I compared a simple baseline model with a Random Forest model for temperature forecasting.
+
+### Baseline model
+- MAE: 10.2418
+- RMSE: 14.0818
+- R²: -0.5930
+
+### Random Forest model
+- MAE: 1.2883
+- RMSE: 2.2715
+- R²: 0.9585
+
+The Random Forest model performed much better than the baseline, which suggests that the time-based features and weather-related variables were useful for forecasting.
+
+## Feature Importance
+The most important features in the Random Forest model were:
+- temp_roll3
+- temp_lag1
+- temp_lag2
+- pressure_mb
+- humidity
+
+This suggests that recent temperature history and a few weather conditions played the biggest role in short-term forecasting.
+
 ## Note
 This project is meant to be simple, readable, and easy to follow. I tried to keep both the code and the explanation clear.
 
