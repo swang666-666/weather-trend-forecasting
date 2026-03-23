@@ -45,14 +45,10 @@ time_candidates = [col for col in df.columns if "last" in col.lower() or "date" 
 print("\nPossible time-related columns:")
 print(time_candidates)
 
-time_col = None
-for col in df.columns:
-    if "last" in col.lower() and "updated" in col.lower():
-        time_col = col
-        break
-
+time_col = "last_updated"
 print("\nSelected time column:")
 print(time_col)
+
 
 
 # -------------------------------
