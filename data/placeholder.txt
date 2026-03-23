@@ -1,1 +1,2 @@
-Put the weather dataset here.
+Download the dataset from Kaggle and place the CSV file in this folder before running the notebook.
+Expected file: Global Weather Repository.csv
