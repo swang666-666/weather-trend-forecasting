@@ -1,2 +1,4 @@
-Download the dataset from Kaggle and place the CSV file in this folder before running the notebook.
-Expected file: Global Weather Repository.csv
+Download the dataset from Kaggle and place the CSV file in this folder before running the project.
+
+Expected file name:
+Global Weather Repository.csv
